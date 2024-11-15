@@ -10,10 +10,10 @@ export default defineConfig({
     vue(),
     vueJsx(),
   ],
+  base: '/arch-design/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
-  },
-  base: '/arch-design'
+  }
 })

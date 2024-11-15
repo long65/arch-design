@@ -1,8 +1,11 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
+const routes = [
+  { path: '/', component: () => import('@/App.vue') }
+];
 const router = createRouter({
-  history: createWebHistory('/arch-design'),
-  routes: [],
+  history: createWebHashHistory(),
+  routes,
 })
 
 export default router
