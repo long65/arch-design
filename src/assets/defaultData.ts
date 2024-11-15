@@ -131,12 +131,12 @@ export const dwParams = {
   door: {
     height: 2.2,
     bottom: 0,
-    url: '/models/door.glb'
+    url: '/arch-design/models/door.glb'
   },
   window: {
     height: 1.5,
     bottom: 0.9,
-    url: '/models/window.glb'
+    url: '/arch-design/models/window.glb'
   },
   sliding_door_1: {
     height: 2.4,

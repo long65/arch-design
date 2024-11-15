@@ -25,7 +25,7 @@ export class LoaderManager {
 
     const dracoLoader = new DRACOLoader();
     dracoLoader.setWorkerLimit(this.maxLoading);
-    dracoLoader.setDecoderPath("/draco/");
+    dracoLoader.setDecoderPath("/arch-design/draco/");
     dracoLoader.preload();
     this.gltfLoader = new GLTFLoader();
     this.gltfLoader.setDRACOLoader(dracoLoader);
