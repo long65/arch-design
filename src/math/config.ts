@@ -1,0 +1,1 @@
+export const TOLERANCE = 1e-6

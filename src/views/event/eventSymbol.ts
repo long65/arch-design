@@ -1,0 +1,6 @@
+export const CameraChange = Symbol('CameraChange')
+export const SceneClick = Symbol('SceneClick')
+export const MouseMove = Symbol('MouseMove')
+export const ModelDragStart = Symbol('ModelDragStart')
+export const ModelDraging = Symbol('ModelDraging')
+export const ModelDragEnd = Symbol('ModelDragEnd')

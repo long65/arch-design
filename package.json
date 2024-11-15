@@ -5,22 +5,22 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check \"build-only {@}\" --",
+    "build": "vite build",
     "preview": "vite preview",
-    "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "pinia": "^2.2.6",
-    "vue": "^3.5.12",
-    "vue-router": "^4.4.5",
-    "@types/three": "^0.168.0",
-    "three": "^0.168.0",
     "@types/axios": "^0.14.0",
+    "@types/three": "^0.168.0",
     "axios": "^1.7.7",
     "lodash": "^4.17.21",
-    "pixi.js": "^8.3.4"
+    "pinia": "^2.2.6",
+    "pixi.js": "^8.0.4",
+    "pixi-viewport": "^5.0.3",
+    "three": "^0.168.0",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
